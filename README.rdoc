@@ -9,6 +9,7 @@ Examples of usage:
 == Authors
 
 {Horaci Cuevas}[http://github.com/horaci] <horaci@gmail.com>
+{Robert R. Meyer}[Blue-Dog-Archolite] <Blue.Dog.Archolite@gmail.com>
 
 == Quick overview
 
@@ -23,7 +24,10 @@ Before using Similus, you need to setup the redis configuration. In rails this c
 
   Similus.config do |config|
     config.backend = :redis
-    config.redis_server = "localhost:6379"
+    config.redis_host = "localhost"
+    config.redis_port = "6379"
+    config.redis_username = "myredisuser"
+    config.redis_password = "Password"
     config.redis_db = 8
   end
 

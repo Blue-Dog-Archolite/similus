@@ -3,7 +3,7 @@ module Similus
     @config ||= Config.new
     block_given? ? yield(@config) : @config
   end
-  
+
   class Config
     attr_accessor :backend
     attr_accessor :redis_host
