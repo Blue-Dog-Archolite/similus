@@ -9,6 +9,7 @@ Examples of usage:
 == Authors
 
 {Horaci Cuevas}[http://github.com/horaci] <horaci@gmail.com>
+
 {Robert R. Meyer}[Blue-Dog-Archolite] <Blue.Dog.Archolite@gmail.com>
 
 == Quick overview
